@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Sucursales</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="list-container">
+        <form>
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(1)">
+                        <span class="arrow" id="arrow-1">▶</span>
+                        <label>Altabrisa</label>
+                    </div>
+                    <input type="checkbox" id="item1" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-1" class="hidden-info">
+                    <p>Dirección: Av. Altabrisa #123</p>
+                    <p>Horario: 7:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(2)">
+                        <span class="arrow" id="arrow-2">▶</span>
+                        <label>H. Angeles</label>
+                    </div>
+                    <input type="checkbox" id="item2" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-2" class="hidden-info">
+                    <p>Dirección: Hospital Angeles</p>
+                    <p>Horario: 24 horas</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(3)">
+                        <span class="arrow" id="arrow-3">▶</span>
+                        <label>Americas</label>
+                    </div>
+                    <input type="checkbox" id="item3" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-3" class="hidden-info">
+                    <p>Dirección: Plaza Americas</p>
+                    <p>Horario: 9:00 - 21:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(4)">
+                        <span class="arrow" id="arrow-4">▶</span>
+                        <label>Centro</label>
+                    </div>
+                    <input type="checkbox" id="item4" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-4" class="hidden-info">
+                    <p>Dirección: Centro de la Ciudad</p>
+                    <p>Horario: 8:00 - 20:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(5)">
+                        <span class="arrow" id="arrow-5">▶</span>
+                        <label>Crystal</label>
+                    </div>
+                    <input type="checkbox" id="item5" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-5" class="hidden-info">
+                    <p>Dirección: Plaza Crystal</p>
+                    <p>Horario: 10:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(6)">
+                        <span class="arrow" id="arrow-6">▶</span>
+                        <label>Galerías</label>
+                    </div>
+                    <input type="checkbox" id="item6" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-6" class="hidden-info">
+                    <p>Dirección: Plaza Galerías</p>
+                    <p>Horario: 11:00 - 21:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(7)">
+                        <span class="arrow" id="arrow-7">▶</span>
+                        <label>Guayabal</label>
+                    </div>
+                    <input type="checkbox" id="item7" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-7" class="hidden-info">
+                    <p>Dirección: Av. Guayabal</p>
+                    <p>Horario: 7:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(8)">
+                        <span class="arrow" id="arrow-8">▶</span>
+                        <label>Movil Deportiva</label>
+                    </div>
+                    <input type="checkbox" id="item8" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-8" class="hidden-info">
+                    <p>Dirección: Ciudad Deportiva</p>
+                    <p>Horario: Variable</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(9)">
+                        <span class="arrow" id="arrow-9">▶</span>
+                        <label>Movil La Venta</label>
+                    </div>
+                    <input type="checkbox" id="item9" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-9" class="hidden-info">
+                    <p>Dirección: La Venta</p>
+                    <p>Horario: Variable</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(10)">
+                        <span class="arrow" id="arrow-10">▶</span>
+                        <label>Olmeca</label>
+                    </div>
+                    <input type="checkbox" id="item10" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-10" class="hidden-info">
+                    <p>Dirección: Plaza Olmeca</p>
+                    <p>Horario: 9:00 - 21:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(11)">
+                        <span class="arrow" id="arrow-11">▶</span>
+                        <label>Pista de Hielo</label>
+                    </div>
+                    <input type="checkbox" id="item11" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-11" class="hidden-info">
+                    <p>Dirección: Pista de Hielo</p>
+                    <p>Horario: 10:00 - 20:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(12)">
+                        <span class="arrow" id="arrow-12">▶</span>
+                        <label>Restaurante Deportiva</label>
+                    </div>
+                    <input type="checkbox" id="item12" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-12" class="hidden-info">
+                    <p>Dirección: Ciudad Deportiva</p>
+                    <p>Horario: 7:00 - 23:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(13)">
+                        <span class="arrow" id="arrow-13">▶</span>
+                        <label>UVM</label>
+                    </div>
+                    <input type="checkbox" id="item13" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-13" class="hidden-info">
+                    <p>Dirección: Universidad UVM</p>
+                    <p>Horario: 7:00 - 21:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(14)">
+                        <span class="arrow" id="arrow-14">▶</span>
+                        <label>USUMA</label>
+                    </div>
+                    <input type="checkbox" id="item14" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-14" class="hidden-info">
+                    <p>Dirección: USUMA Campus</p>
+                    <p>Horario: 7:00 - 20:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(15)">
+                        <span class="arrow" id="arrow-15">▶</span>
+                        <label>Walmart Carrizal</label>
+                    </div>
+                    <input type="checkbox" id="item15" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-15" class="hidden-info">
+                    <p>Dirección: Walmart Carrizal</p>
+                    <p>Horario: 7:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(16)">
+                        <span class="arrow" id="arrow-16">▶</span>
+                        <label>Walmart Deportiva</label>
+                    </div>
+                    <input type="checkbox" id="item16" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-16" class="hidden-info">
+                    <p>Dirección: Walmart Deportiva</p>
+                    <p>Horario: 7:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="list-item">
+                    <div class="item-header" onclick="toggleInfo(17)">
+                        <span class="arrow" id="arrow-17">▶</span>
+                        <label>Walmart Universidad</label>
+                    </div>
+                    <input type="checkbox" id="item17" onclick="event.stopPropagation()">
+                </div>
+                <div id="info-17" class="hidden-info">
+                    <p>Dirección: Walmart Universidad</p>
+                    <p>Horario: 7:00 - 22:00</p>
+                    <p>Teléfono: (993) XXX-XXXX</p>
+                </div>
+            </div>
+            <div style="margin-top: 20px; text-align: center;">
+                <button type="button" onclick="verSeleccionados()" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Ver Seleccionados</button>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
